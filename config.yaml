@@ -1,0 +1,16 @@
+---
+
+
+
+is_debug: true
+listen:
+  type: port
+  bind_ip: 0.0.0.0
+  port: 5514
+mongodb:
+  host: <MogoHost>
+  port: <MongoPort>
+  username: <MongoUser>
+  password: <MongoPWD>
+  database: <MongoDB>
+  collection: <MongoCollection>
